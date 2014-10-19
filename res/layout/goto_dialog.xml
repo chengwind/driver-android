@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlGoto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <SeekBar
+        android:id="@+id/sbGoto"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+    </SeekBar>
+
+    <TextView
+        android:id="@+id/tvMin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/sbGoto"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:text="MIN"
+        android:textColor="@color/yellow"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvGotoHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sbGoto"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="当前题目名称"
+        android:textColor="@color/yellow"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvMax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/sbGoto"
+        android:gravity="center"
+        android:paddingRight="5dp"
+        android:text="MAX"
+        android:textColor="@color/yellow"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/tvGotoHint"
+        android:layout_centerVertical="true"
+        android:background="@null"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:src="@drawable/back" />
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvGotoHint"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dip"
+        android:layout_toRightOf="@id/btnBack"
+        android:text="确定" >
+    </Button>
+
+</RelativeLayout>

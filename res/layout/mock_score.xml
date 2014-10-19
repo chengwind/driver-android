@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_bg"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/main_title"
+        android:layout_alignParentTop="true"
+        layout="@layout/title" />
+
+    <RelativeLayout
+        android:id="@+id/bottomlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="45.0dip"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_bg" >
+
+        <Button
+            android:id="@+id/btnAnalysisMock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@color/nocolor"
+            android:drawableTop="@drawable/icon_analysis"
+            android:paddingLeft="10dp"
+            android:text="错题分析"
+            android:textColor="@drawable/menu_text_bg" />
+
+        <Button
+            android:id="@+id/btnExitMock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@color/nocolor"
+            android:drawableTop="@drawable/btn_exit_bg"
+            android:paddingRight="10dp"
+            android:text="退出考试"
+            android:textColor="@drawable/menu_text_bg" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_title"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginRight="20.0dip"
+        android:layout_marginTop="20.0dip"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip" >
+
+            <Button
+                android:id="@+id/btnScore"
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:background="@drawable/single_btn_selector"
+                android:gravity="left|center"
+                android:paddingLeft="20.0dip"
+                android:text="您的得分 : "
+                android:textColor="@color/black"
+                android:textSize="17.0sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=" 100 (通过 )"
+                android:textColor="@color/textblack"
+                android:textSize="17.0sp" />
+
+            <ImageView
+                android:id="@+id/ivResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center"
+                android:layout_marginRight="20.0dip"
+                android:src="@drawable/mock_selected_t" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_marginTop="20.0dip" >
+
+            <Button
+                android:id="@+id/btnTotalAmt"
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:background="@drawable/top_btn_selector"
+                android:gravity="left|center"
+                android:paddingLeft="20.0dip"
+                android:text="总的题数 : "
+                android:textColor="@color/black"
+                android:textSize="17.0sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvTotalAmt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="aaaaa"
+                android:textColor="@color/textblack"
+                android:textSize="17.0sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip" >
+
+            <Button
+                android:id="@+id/btnOkAmt"
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:background="@drawable/middle_btn_selector"
+                android:gravity="left|center"
+                android:paddingLeft="20.0dip"
+                android:text="答对题数 : "
+                android:textColor="@color/black"
+                android:textSize="17.0sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvOkAmt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="aaaaa"
+                android:textColor="@color/textblack"
+                android:textSize="17.0sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip" >
+
+            <Button
+                android:id="@+id/btnErrorAmt"
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:background="@drawable/middle_btn_selector"
+                android:gravity="left|center"
+                android:paddingLeft="20.0dip"
+                android:text="答错题数 : "
+                android:textColor="@color/black"
+                android:textSize="17.0sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvErrorAmt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="a"
+                android:textColor="@color/textblack"
+                android:textSize="17.0sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip" >
+
+            <Button
+                android:id="@+id/btnYetdoAmt"
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:background="@drawable/bottom_btn_selector"
+                android:gravity="left|center"
+                android:paddingLeft="20.0dip"
+                android:text="未做题数 : "
+                android:textColor="@color/black"
+                android:textSize="17.0sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvYetdoAmt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="aaaaa"
+                android:textColor="@color/textblack"
+                android:textSize="17.0sp" />
+        </FrameLayout>
+    </LinearLayout>
+
+</RelativeLayout>

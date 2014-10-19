@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/main_bg"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/main_title"
+        layout="@layout/title" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/main_title" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginRight="20.0dip"
+            android:layout_marginTop="20.0dip"
+            android:orientation="vertical"
+            android:scrollbars="vertical" >
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip" >
+
+                <Button
+                    android:id="@+id/btnShareSMS"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50.0dip"
+                    android:background="@drawable/top_btn_selector"
+                    android:gravity="left|center"
+                    android:paddingLeft="20.0dip"
+                    android:text="短信分享"
+                    android:textColor="@color/black"
+                    android:textSize="17.0sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+                    android:layout_marginRight="20.0dip"
+                    android:src="@drawable/arrow_unfilled" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip" >
+
+                <Button
+                    android:id="@+id/btnShareOthers"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50.0dip"
+                    android:background="@drawable/bottom_btn_selector"
+                    android:gravity="left|center"
+                    android:paddingLeft="20.0dip"
+                    android:text="其他分享"
+                    android:textColor="@color/black"
+                    android:textSize="17.0sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+                    android:layout_marginRight="20.0dip"
+                    android:src="@drawable/arrow_unfilled" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:layout_marginTop="20.0dip" >
+
+                <Button
+                    android:id="@+id/btnSuggestion"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50.0dip"
+                    android:background="@drawable/top_btn_selector"
+                    android:gravity="left|center"
+                    android:paddingLeft="20.0dip"
+                    android:text="建议合作"
+                    android:textColor="@color/black"
+                    android:textSize="17.0sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+                    android:layout_marginRight="20.0dip"
+                    android:src="@drawable/arrow_unfilled" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip" >
+
+                <Button
+                    android:id="@+id/btnDisclaimer"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50.0dip"
+                    android:background="@drawable/middle_btn_selector"
+                    android:gravity="left|center"
+                    android:paddingLeft="20.0dip"
+                    android:text="隐私协议"
+                    android:textColor="@color/black"
+                    android:textSize="17.0sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+                    android:layout_marginRight="20.0dip"
+                    android:src="@drawable/arrow_unfilled" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip" >
+
+                <Button
+                    android:id="@+id/btnAbout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50.0dip"
+                    android:background="@drawable/bottom_btn_selector"
+                    android:gravity="left|center"
+                    android:paddingLeft="20.0dip"
+                    android:text="关于我们"
+                    android:textColor="@color/black"
+                    android:textSize="17.0sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+                    android:layout_marginRight="20.0dip"
+                    android:src="@drawable/arrow_unfilled" />
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

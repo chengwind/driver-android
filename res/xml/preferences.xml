@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="first_category"
+        android:title="基本设置" >
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/carType"
+            android:entryValues="@array/carTypeValues"
+            android:key="carType"
+            android:summary="Summary"
+            android:title="Select" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

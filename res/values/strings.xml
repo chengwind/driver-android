@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">无忧驾照考试</string>
+    <string name="about">关于</string>
+    <string name="searchScope">选择查询范围</string>
+    <string name="infoSoftName">无忧驾照考试{0} (Build : {1})</string>
+    <string name="infoEmailRecommand">无忧驾照考试 - 推荐优秀驾考辅助软件</string>
+    <string name="infoEmailSuggest">无忧驾照考试 - 建议与合作</string>
+    <string name="infoSoftShortInfo">无忧驾照考试是一款Android平台小巧灵活的驾考辅助软件</string>
+    <string name="infoSoftLongInfo">无忧驾照考试是一款Android平台驾考辅助软件,界面简洁清新,最新题库,顺序练习/随机练习多种练习方式,模拟考试,经验文章,我的错题详解及我的收藏,全文题库/文章搜索.</string>
+    <string name="infoSendemail">发送邮件</string>
+    <string name="infoAuthor">作者: {0}</string>
+    <string name="infoEmail">邮箱 : {0}</string>
+
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="lightblue">#ffc6e2ff</color>
+    <color name="textblack">#ff696969</color>
+    <color name="black">#ff000000</color>
+    <color name="nocolor">#00000000</color>
+    <color name="yellow">#ffffff00</color>
+    <color name="ayellow">#FFA500</color>
+    <color name="textblue">#ff1e90ff</color>
+    <color name="bggray">#ffececec</color>
+    <color name="darkblue">#ff0050bc</color>
+    <color name="white">#ffffffff</color>
+    <color name="lightgreen">#ff7ec80a</color>
+    <color name="lightgray">#ffadadad</color>
+    <color name="agreen">#00FF00</color>
+
+    <drawable name="screen_background_black">#ff000000</drawable>
+    <drawable name="translucent_background">#e0000000</drawable>
+    <drawable name="transparent_background">#00000000</drawable>
+
+</resources>

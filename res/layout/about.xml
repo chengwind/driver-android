@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_bg" >
+
+    <include
+        android:id="@+id/main_title"
+        layout="@layout/title" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_below="@id/main_title"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/txt1"
+        style="@style/tv_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/txt2"
+        style="@style/tv_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt1"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/txt3"
+        style="@style/tv_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt2"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/txt4"
+        style="@style/tv_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt3"
+        android:gravity="center" />
+
+</RelativeLayout>
